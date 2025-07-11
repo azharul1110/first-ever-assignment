@@ -45,6 +45,9 @@ nav{
    border: none;
    border-radius: 10px; 
 }
+button:hover{
+    background-color: brown;
+}
 
 /* banner */
 
@@ -73,9 +76,60 @@ nav{
 }
 .content{
     display: flex;
-   margin: 116px 292px 141px;
+   margin:116px 292px  141px;
    justify-content: space-around;
-}
+   
+   
+} 
 .content-title{
    width:606px ; 
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+  text-align: center;
+  padding: 50px;
+}
+
+.stats-container{
+    background-color: rgba(78, 71, 255, 0.1);
+    width:1140px ;
+    height:306px ;
+    background-position: 141px 1258px;
+    padding:50px 80px ;
+    border-radius: 24px;
+    margin:116px auto ;
+    
+}
+.stats-container h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.stat-box {
+  background-color:white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+  font-size: 36px;
+  font-weight: bold;
+  color: darkblue; 
+}
+
+.stat-label {
+  font-size: 14px;
+  margin-top: 8px;
+  color:gray;
 }
