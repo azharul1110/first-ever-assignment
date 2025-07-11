@@ -88,7 +88,7 @@ button:hover{
 
 body {
   font-family: Arial, sans-serif;
-  background-color:white;
+  background-color:aliceblue;
   text-align: center;
   padding: 50px;
 }
@@ -211,6 +211,64 @@ body {
 .reviewer span {
   font-size: 12px;
   color: #888;
+}
+
+/* focus part */
+
+.focus-section {
+  display: flex;
+  justify-content: center;
+  
+}
+.focus-box{
+   width: 1000px;
+  height: 696px; 
+ 
+}
+
+.focus-section {
+  background-color:rgba(255, 255, 255, 1);
+   margin: 137px 159px 141px ;
+  border-radius: 24px;
+  padding: 60px 40px;
+  text-align: center;
+  
+  
+}
+
+.focus-box h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.focus-box p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.focus-box button {
+  background-color: #3366ff;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.btn-primary:hover{
+    background-color: brown;
+}
+
+.focus-box img {
+  width:100%;
+  max-height:400px;
+  object-fit: cover;
+  border-radius: 48px;
+  
 }
 
   
