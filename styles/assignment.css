@@ -43,7 +43,8 @@ nav{
    background-color: rgba(78, 71, 255, 1);
    padding: 12px 36px;
    border: none;
-   border-radius: 10px; 
+   border-radius: 10px;
+   cursor: pointer; 
 }
 button:hover{
     background-color: brown;
@@ -88,7 +89,7 @@ button:hover{
 
 body {
   font-family: Arial, sans-serif;
-  background-color:aliceblue;
+  background-color:#f5f5f5;
   text-align: center;
   padding: 50px;
 }
@@ -221,7 +222,7 @@ body {
   
 }
 .focus-box{
-   width: 1000px;
+   width: 1140px;
   height: 696px; 
  
 }
@@ -271,8 +272,90 @@ body {
   
 }
 
+/* form */
+
+.touch-head{
+    display: flex;
+    justify-content:space-between ;
+  padding: 0 71px;
   
+  gap: 233px;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    text-align: left;
+}
+ section input[type="text"],section input[type="email"],section textarea{
+    height: 70px;
+    width:497px;
+    padding: 20px 32px;
+    gap: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border:none;
+    margin-bottom: 51px;
+    display: block;
+   
+    
+ }
+ label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+ }
 
+  /* footer */
 
+.footer {
+  background-color:white;
+  background-size: cover;
+  padding: 40px 20px;
+  width: 90%;
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 78px 55px 127px;
+  
+}
+
+.footer .logo {
+  font-size: 100px;
+  color: rgba(78, 71, 255, 1);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer .description {
+  font-size: 14px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+  color: #1a56db;
+}
+.footer-item{
+    margin:100px 455px ;
+    height: 100%;
+}
 
 
